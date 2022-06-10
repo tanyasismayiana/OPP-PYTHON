@@ -65,8 +65,8 @@ class Account:
 
                     
     def withdrawals_statements(self):
-        for statements in self.deposits:
-            print (statements)
+        for statement in self.deposits:
+            print (statement)
 
     def current_balance(self):
         balance = self.balance
