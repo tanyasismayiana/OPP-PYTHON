@@ -58,4 +58,18 @@ class Account:
         else:
             self.balance-=amount
             return f"You have withdrawn {amount} your new balance is {self.balance}"
+            
+    def deposits_statements(self):
+        for statements in self.deposits:
+            print (statements)
+
+                    
+    def withdrawals_statements(self):
+        for statements in self.deposits:
+            print (statements)
+
+    def current_balance(self):
+        balance = self.balance
+        print(balance)        
+
 
